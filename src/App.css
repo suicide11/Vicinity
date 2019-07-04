@@ -58,9 +58,14 @@ Card{
   top:30%;
   left:30%;
   background-color:white;
+  overflow:scroll;
   /* margin:10% */
   height:40%;
   width:40%;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
 }
 h2{
   color:black
